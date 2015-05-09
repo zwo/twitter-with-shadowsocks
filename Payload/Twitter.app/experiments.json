@@ -1,0 +1,125 @@
+{
+    "experiments": [
+        {
+            "experiment_key": "ios_onboarding_tweet_step_1399",
+            "experiment_type": "logged_in",
+            "bucket": null,
+            "buckets": [
+                {"name": "control", "value": 100},
+                {"name": "tweet_step", "value": 100}
+            ],
+            "version": 7,
+            "start_time": "2013-10-16 19:23:16 +0000",
+            "end_time": "2014-12-16 19:21:16 +0000"
+        },
+
+        {
+            "experiment_key": "nux_critical_prompt_1268",
+            "experiment_type": "logged_in",
+            "bucket": null,
+            "buckets": [
+                {"name": "control", "value": 7500},
+                {"name": "photo_prompt_only", "value": 2500}
+            ],
+            "version": 8,
+            "start_time": "2013-09-14 00:24:10 +0000",
+            "end_time": "2015-11-14 00:15:57 +0000"
+        },
+
+        {
+            "experiment_key": "ios_digits_us_rampup_u_1903",
+            "version": 2,
+            "start_time": "2014-03-04 23:48:38 +0000",
+            "end_time": "2015-05-04 23:44:51 +0000",
+            "experiment_type": "all",
+            "bucket": null,
+            "buckets": [
+                {"name": "control", "value": 500},
+                {"name": "precheck_follows", "value": 7500},
+                {"name": "uncheck_follows", "value": 500},
+                {"name": "next_add_my_phone_prechecked", "value": 500},
+                {"name": "sms_reordered_precheck_follows", "value": 500},
+                {"name": "sms_reordered_uncheck_follows", "value": 500}
+            ]
+        },
+
+        {
+            "experiment_key": "ios_compose_toolbar_drafts_v2_1768",
+            "version": 1,
+            "start_time": "2014-02-05 21:35:22 +0000",
+            "end_time": "2015-03-01 01:01:08 +0000",
+            "experiment_type": "all",
+            "bucket": null,
+            "buckets": [
+                    {"name": "control", "value": 9900},
+                    {"name": "drafts_button", "value": 50},
+                    {"name": "drafts_button_comp_no_profile", "value": 50}
+            ]
+        },
+
+        {
+            "experiment_key": "ios_mobile_bellbird_profiles_devicewide_1929",
+            "version": 7,
+            "start_time": "2014-03-06 22:57:37 +0000",
+            "end_time": "2015-05-06 22:51:40 +0000",
+            "experiment_type": "all",
+            "darkmode" : false,
+            "group" : "ios",
+            "group_bucket_strategy" : "shared",
+            "is_mobile_v2" : false,
+            "bucket": null,
+            "buckets": [
+                {"name": "control", "value": 40},
+                {"name": "bellbird_profiles_enabled", "value": 40},
+                {"name": "larger_following_buttons", "value": 40},
+                {"name": "navigation_follow_button", "value": 40},
+                {"name": "row_based_wtf", "value": 40},
+                {"name": "wtf_more_recommendations", "value": 40}
+            ]
+        },
+
+        {
+            "experiment_key": "sc_explore_1911",
+            "version": 6,
+            "start_time": "2014-03-05 21:34:43 +0000",
+            "end_time": "2014-03-07 21:17:27 +0000",
+            "experiment_type": "logged_in",
+            "bucket": null,
+            "buckets": [
+                {"name": "control", "value": 500},
+                {"name": "discover_after_sign_up","value": 500},
+                {"name": "home_default","value": 500},
+                {"name": "discover_default","value": 500}
+            ]
+        },
+
+        {
+        "experiment_key": "explore_3_non_new_ios_2063",
+        "start_time": "2014-04-16 23:33:40 +0000",
+        "end_time": "2014-09-01 23:33:40 +0000",
+        "version": 12,
+        "experiment_type": "logged_in",
+        "buckets": [
+                {"name": "control", "value": 500},
+                {"name": "explore1","value": 100}
+            ]
+        },
+
+        {
+            "experiment_key": "sc_explore_3_new_ios_2_2068",
+            "version": 20,
+            "experiment_type": "logged_in",
+            "start_time": "2014-04-16 23:33:40 +0000",
+            "end_time": "2014-09-01 23:33:40 +0000",
+            "buckets": [
+                {"name": "control","value": 500},
+                {"name": "explore1", "value": 300},
+                {"name": "explore2", "value": 100},
+                {"name": "explore3", "value": 100},
+                {"name": "explore4", "value": 100},
+                {"name": "explore5", "value": 100},
+                {"name": "explore6", "value": 200}
+            ]
+        }
+    ]
+}

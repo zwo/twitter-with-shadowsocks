@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+    <head>
+        <title>
+            %@
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=no">
+        <style type="text/css">
+            html {
+                -webkit-text-size-adjust: none;
+            }
+
+            body {
+                text-align: center;
+                padding: 0px;
+                margin: 0px;
+                width: 100%%;
+                height: 100%%;
+                font-family: "Helvetica Neue";
+            }
+
+            a {
+                -webkit-touch-callout: none;
+                text-decoration: none;
+                color: #55acee;
+            }
+
+            a.button {
+                font-size: 16px;
+                font-weight: bold;
+                display: block;
+                width: auto;
+                height: 42px;
+                line-height: 42px;
+                margin-top: 0px;
+                margin-right: auto;
+                margin-left: auto;
+                margin-bottom: 10px;
+                border-color: #55acee;
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 5px;
+                color: white;
+                background-color: #55acee;
+                max-width: 280px;
+            }
+
+            #copy-text {
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+				width: 82%%;
+            }
+            #container {
+                width: 100%%;
+				height: 100%%;
+                position: absolute;
+                -webkit-user-select: none;
+                font-weight: lighter;
+            }
+
+            strong {
+                color: #292f33;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: lighter;
+                line-height: 20px;
+            }
+
+            #copy-block {
+                margin: auto;
+                font-size: 14px;
+                line-height: 17px;
+                color: #8899a6;
+            }
+
+            input[type=checkbox] {
+                width: 20px;
+                height: 15px;
+            }
+
+            #checkbox-div {
+                padding: 25px;
+            }
+
+            label {
+                font-size: 14px;
+                line-height: 17px;
+                color: #8899a6;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="copy-block">
+                <span id="copy-text">%@</span>
+                <div id="checkbox-div">
+                    <input type="checkbox" id="checkbox"><label for="checkbox">%@</label>
+                </div>
+                <a class="button" href="twitter://ok">%@</a>
+            </div>
+        </div>
+    </body>
+    <script>
+        function doOnOrientationChange()
+        {
+            var container = document.getElementById("container");
+            var inner = document.getElementById("copy-block");
+            var inHeight = inner.offsetHeight;
+            container.style.height=(window.innerHeight);
+            container.style.width=window.innerWidth;
+            var conHeight=container.offsetHeight;
+            inner.style.marginTop = ((conHeight-inHeight)/2)*(1/1.5)+'px';
+        }
+
+        window.addEventListener('orientationchange', doOnOrientationChange);
+        doOnOrientationChange();
+    </script>
+</html>

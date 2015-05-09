@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SinfPaths</key>
+	<array>
+		<string>SC_Info/Twitter.sinf</string>
+	</array>
+	<key>SinfReplicationPaths</key>
+	<array>
+		<string>Frameworks/TFNLoggingKit.framework/SC_Info/TFNLoggingKit.sinf</string>
+		<string>Frameworks/TFSScribeKit.framework/SC_Info/TFSScribeKit.sinf</string>
+		<string>Frameworks/TwitterExtensionKit.framework/SC_Info/TwitterExtensionKit.sinf</string>
+		<string>Frameworks/TwitterWatchServicesKit.framework/SC_Info/TwitterWatchServicesKit.sinf</string>
+		<string>Frameworks/TwitterWatchUI.framework/SC_Info/TwitterWatchUI.sinf</string>
+		<string>PlugIns/Twitter WatchKit Extension.appex/SC_Info/Twitter WatchKit Extension.sinf</string>
+		<string>SC_Info/Twitter.sinf</string>
+	</array>
+</dict>
+</plist>
