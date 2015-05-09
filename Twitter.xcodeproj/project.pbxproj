@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA10F2161AFD94E900AB557A /* PDebug.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA10F2151AFD94E900AB557A /* PDebug.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA10F2181AFD94F000AB557A /* Shadowsocksable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA10F2171AFD94F000AB557A /* Shadowsocksable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA10F21A1AFD952A00AB557A /* TwitterShadowsocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA10F2191AFD952A00AB557A /* TwitterShadowsocks.framework */; };
+		AA10F21B1AFD953500AB557A /* TwitterShadowsocks.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA10F2191AFD952A00AB557A /* TwitterShadowsocks.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AAE19B6D1AB146DE006029B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE19B6C1AB146DE006029B9 /* main.m */; };
 		AAE19B701AB146DE006029B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE19B6F1AB146DE006029B9 /* AppDelegate.m */; };
 		AAE19B731AB146DE006029B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE19B721AB146DE006029B9 /* ViewController.m */; };
@@ -19,6 +23,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				AA10F2161AFD94E900AB557A /* PDebug.framework in Embed Frameworks */,
+				AA10F2181AFD94F000AB557A /* Shadowsocksable.framework in Embed Frameworks */,
+				AA10F21B1AFD953500AB557A /* TwitterShadowsocks.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -26,6 +33,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA10F2151AFD94E900AB557A /* PDebug.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDebug.framework; path = Payload/Twitter.app/Frameworks/PDebug.framework; sourceTree = "<group>"; };
+		AA10F2171AFD94F000AB557A /* Shadowsocksable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Shadowsocksable.framework; path = Payload/Twitter.app/Frameworks/Shadowsocksable.framework; sourceTree = "<group>"; };
+		AA10F2191AFD952A00AB557A /* TwitterShadowsocks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterShadowsocks.framework; path = Payload/Twitter.app/Frameworks/TwitterShadowsocks.framework; sourceTree = "<group>"; };
 		AAE19B671AB146DE006029B9 /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE19B6B1AB146DE006029B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAE19B6C1AB146DE006029B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA10F21A1AFD952A00AB557A /* TwitterShadowsocks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +63,9 @@
 		AAE19B5E1AB146DE006029B9 = {
 			isa = PBXGroup;
 			children = (
+				AA10F2191AFD952A00AB557A /* TwitterShadowsocks.framework */,
+				AA10F2171AFD94F000AB557A /* Shadowsocksable.framework */,
+				AA10F2151AFD94E900AB557A /* PDebug.framework */,
 				AAE19B691AB146DE006029B9 /* Twitter */,
 				AAE19B681AB146DE006029B9 /* Products */,
 			);
@@ -275,6 +289,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Payload/Twitter.app/Frameworks",
+				);
 				INFOPLIST_FILE = Twitter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -286,6 +304,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Payload/Twitter.app/Frameworks",
+				);
 				INFOPLIST_FILE = Twitter/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
