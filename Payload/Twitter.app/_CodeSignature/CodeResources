@@ -14,31 +14,31 @@
 		</data>
 		<key>Frameworks/PDebug.framework/Info.plist</key>
 		<data>
-		1RgKsP7YZjKxqO46lWRakXZhfMQ=
+		7aLXuLKn+JrxOxAw/0FoqJ0jXAg=
 		</data>
 		<key>Frameworks/PDebug.framework/PDebug</key>
 		<data>
-		EZbt6VyWLcOAMRpwkGSfArZPeVE=
+		odu7vg7NCsLrvAImv/PTa9n1sC8=
 		</data>
 		<key>Frameworks/PDebug.framework/_CodeSignature/CodeResources</key>
 		<data>
-		pXauR3qkgqMETpXpMVysXA33Ygw=
+		IOIV09/93oNOSrhXtY3nYxXzco0=
 		</data>
 		<key>Frameworks/PDebug.framework/embedded.mobileprovision</key>
 		<data>
-		1EyNo0m0Hv4sVZT0hajFc+80r4M=
+		Qqpc++xbNRCSooHxhTW2R6RDQ1M=
 		</data>
 		<key>Frameworks/Shadowsocksable.framework/Info.plist</key>
 		<data>
-		5UhwkkcsucfryIxcUslCRkO9myo=
+		NSOAdwf42slu8ZnhsJmlaloPRa8=
 		</data>
 		<key>Frameworks/Shadowsocksable.framework/Shadowsocksable</key>
 		<data>
-		gjgTTRjkE5vqFFENjRXD1hhWVdA=
+		BQEKMwI+uMk8aa1PRRlZXWJQms0=
 		</data>
 		<key>Frameworks/Shadowsocksable.framework/_CodeSignature/CodeResources</key>
 		<data>
-		quNf6khljWuQkUTg8SLgw84ml24=
+		ABN+F7fca6XxwKPCrmE26eP74ec=
 		</data>
 		<key>Frameworks/TFNLoggingKit.framework/Info.plist</key>
 		<data>
@@ -118,19 +118,19 @@
 		</data>
 		<key>Frameworks/TwitterShadowsocks.framework/Info.plist</key>
 		<data>
-		Ja7yVW1PpZ/3L/1T32SGURdC+08=
+		yYG9I41KAPRDr/SLIG/IMLqe/hc=
 		</data>
 		<key>Frameworks/TwitterShadowsocks.framework/TwitterShadowsocks</key>
 		<data>
-		etLcQwpcNGRbmjXQ+8YETIfmWzk=
+		AyNJiUh74SI+4Y0Yao7ug2tjp3g=
 		</data>
 		<key>Frameworks/TwitterShadowsocks.framework/_CodeSignature/CodeResources</key>
 		<data>
-		cN0n+aWTwQJAjlyZTeWPLLQOEfk=
+		iiFeCwrblgAAw6y1NSuJWmyR30o=
 		</data>
 		<key>Frameworks/TwitterShadowsocks.framework/embedded.mobileprovision</key>
 		<data>
-		1EyNo0m0Hv4sVZT0hajFc+80r4M=
+		Qqpc++xbNRCSooHxhTW2R6RDQ1M=
 		</data>
 		<key>Frameworks/TwitterWatchServicesKit.framework/Info.plist</key>
 		<data>
@@ -2769,7 +2769,7 @@
 		</data>
 		<key>appid.fir</key>
 		<data>
-		JP0N0G0q5umsn48pobsZvsdS+0Q=
+		cL9l6mBaTGoDjTK8TL/QZ9K9pjE=
 		</data>
 		<key>ar.lproj/InfoPlist.strings</key>
 		<dict>
@@ -2845,7 +2845,7 @@
 		</dict>
 		<key>embedded.mobileprovision</key>
 		<data>
-		1EyNo0m0Hv4sVZT0hajFc+80r4M=
+		Qqpc++xbNRCSooHxhTW2R6RDQ1M=
 		</data>
 		<key>en-GB.lproj/InfoPlist.strings</key>
 		<dict>
@@ -3360,31 +3360,31 @@
 		</data>
 		<key>Frameworks/PDebug.framework/Info.plist</key>
 		<data>
-		1RgKsP7YZjKxqO46lWRakXZhfMQ=
+		7aLXuLKn+JrxOxAw/0FoqJ0jXAg=
 		</data>
 		<key>Frameworks/PDebug.framework/PDebug</key>
 		<data>
-		EZbt6VyWLcOAMRpwkGSfArZPeVE=
+		odu7vg7NCsLrvAImv/PTa9n1sC8=
 		</data>
 		<key>Frameworks/PDebug.framework/_CodeSignature/CodeResources</key>
 		<data>
-		pXauR3qkgqMETpXpMVysXA33Ygw=
+		IOIV09/93oNOSrhXtY3nYxXzco0=
 		</data>
 		<key>Frameworks/PDebug.framework/embedded.mobileprovision</key>
 		<data>
-		1EyNo0m0Hv4sVZT0hajFc+80r4M=
+		Qqpc++xbNRCSooHxhTW2R6RDQ1M=
 		</data>
 		<key>Frameworks/Shadowsocksable.framework/Info.plist</key>
 		<data>
-		5UhwkkcsucfryIxcUslCRkO9myo=
+		NSOAdwf42slu8ZnhsJmlaloPRa8=
 		</data>
 		<key>Frameworks/Shadowsocksable.framework/Shadowsocksable</key>
 		<data>
-		gjgTTRjkE5vqFFENjRXD1hhWVdA=
+		BQEKMwI+uMk8aa1PRRlZXWJQms0=
 		</data>
 		<key>Frameworks/Shadowsocksable.framework/_CodeSignature/CodeResources</key>
 		<data>
-		quNf6khljWuQkUTg8SLgw84ml24=
+		ABN+F7fca6XxwKPCrmE26eP74ec=
 		</data>
 		<key>Frameworks/TFNLoggingKit.framework/Info.plist</key>
 		<data>
@@ -3464,19 +3464,19 @@
 		</data>
 		<key>Frameworks/TwitterShadowsocks.framework/Info.plist</key>
 		<data>
-		Ja7yVW1PpZ/3L/1T32SGURdC+08=
+		yYG9I41KAPRDr/SLIG/IMLqe/hc=
 		</data>
 		<key>Frameworks/TwitterShadowsocks.framework/TwitterShadowsocks</key>
 		<data>
-		etLcQwpcNGRbmjXQ+8YETIfmWzk=
+		AyNJiUh74SI+4Y0Yao7ug2tjp3g=
 		</data>
 		<key>Frameworks/TwitterShadowsocks.framework/_CodeSignature/CodeResources</key>
 		<data>
-		cN0n+aWTwQJAjlyZTeWPLLQOEfk=
+		iiFeCwrblgAAw6y1NSuJWmyR30o=
 		</data>
 		<key>Frameworks/TwitterShadowsocks.framework/embedded.mobileprovision</key>
 		<data>
-		1EyNo0m0Hv4sVZT0hajFc+80r4M=
+		Qqpc++xbNRCSooHxhTW2R6RDQ1M=
 		</data>
 		<key>Frameworks/TwitterWatchServicesKit.framework/Info.plist</key>
 		<data>
@@ -6107,7 +6107,7 @@
 		</data>
 		<key>appid.fir</key>
 		<data>
-		JP0N0G0q5umsn48pobsZvsdS+0Q=
+		cL9l6mBaTGoDjTK8TL/QZ9K9pjE=
 		</data>
 		<key>ar.lproj/InfoPlist.strings</key>
 		<dict>
@@ -6183,7 +6183,7 @@
 		</dict>
 		<key>embedded.mobileprovision</key>
 		<data>
-		1EyNo0m0Hv4sVZT0hajFc+80r4M=
+		Qqpc++xbNRCSooHxhTW2R6RDQ1M=
 		</data>
 		<key>en-GB.lproj/InfoPlist.strings</key>
 		<dict>
